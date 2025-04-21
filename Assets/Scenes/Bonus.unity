@@ -377,6 +377,37 @@ MonoBehaviour:
   m_LightCookieSize: {x: 1, y: 1}
   m_LightCookieOffset: {x: 0, y: 0}
   m_SoftShadowQuality: 1
+--- !u!1 &581780307
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 581780308}
+  m_Layer: 0
+  m_Name: CentroForesta
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &581780308
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 581780307}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &756807290
 GameObject:
   m_ObjectHideFlags: 0
@@ -507,10 +538,11 @@ MonoBehaviour:
   - {fileID: 190509092602358020, guid: 975eeb7876e491d4ca9d98bea489889d, type: 3}
   - {fileID: 5231381474966052912, guid: 62028e9f4dae97c4ab688dee4d110b29, type: 3}
   - {fileID: 4073943813501975875, guid: cc5368c71a059bf4491880641e8fbf92, type: 3}
-  numeroAlberi: 12
-  raggioForesta: 5
+  numeroAlberi: 10
+  latoForesta: 7.5
+  centroForesta: {fileID: 581780308}
   nomeChioma: Chioma
-  rigera: 0
+  rigenera: 0
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
@@ -518,3 +550,4 @@ SceneRoots:
   - {fileID: 330585546}
   - {fileID: 410087041}
   - {fileID: 756807294}
+  - {fileID: 581780308}
